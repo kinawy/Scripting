@@ -31,8 +31,7 @@ squad_713 = [
 
 ga_file = open('ga.txt', 'w')
 for student in squad_713:
-    ga_file.write("\n")
-    ga_file.write(student)
+    ga_file.write("{}\n".format(student))
     
 ga_file.close()
 
